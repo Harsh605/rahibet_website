@@ -4,13 +4,29 @@ import RealtedGames from "./RealtedGames";
 import Question from "./Question";
 import { FaPlay } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import SeoHelmet from "./Helmet";
 const About = () => {
   const navigate = useNavigate();
   return (
     <div>
+      <SeoHelmet
+        pagetitle="Rahi Bet - 24x7 Online Gaming Platform"
+        description="Rahibet is a real money online gaming app that lets you play
+games for quick cash. Play with real cash games of Call Break, Teen Patti,
+Rummy, and Ludo etc. Play, win, and get your money back right away with a
+bank transfer or UPI.
+"
+        keywords=" rahibet.com, about rahi bet, about rahi bet website, rahibet
+gaming website, rahibet.com company, Rahi Bet, Rahi Bet, Raahi Bet, online
+gaming website"
+      />
+
       <section
         className="pageheader-section"
-        style={{ backgroundImage: "url(/images/1000_F_416254586_YnctPtejbIpnRuwdPK2wd559TpSm3duR-transformed-transformed.jpeg)" }}
+        style={{
+          backgroundImage:
+            "url(/images/1000_F_416254586_YnctPtejbIpnRuwdPK2wd559TpSm3duR-transformed-transformed.jpeg)",
+        }}
       >
         <div className="container">
           <div className="section-wrapper text-center text-uppercase">

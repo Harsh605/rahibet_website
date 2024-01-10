@@ -1,6 +1,6 @@
 let game_name_second = [
-    { id: 11, name: "jackpoat 3patti", },
-    { id: 12,   name: "jandimunda", },
+    { id: 11, name: "Jackpot 3 Patti", },
+    { id: 12,   name: "Jandi Munda", },
     { id: 13,  name: "Poker games", },
     { id: 14, name: "Private Rummy", },
     { id: 15,   name: "Privte Table", },

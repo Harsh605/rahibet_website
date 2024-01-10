@@ -9,15 +9,17 @@ import Tournament from './component/Tournament';
 import AllGames from './component/AllGames';
 import Contact from './component/Contact';
 import TermsAndConditions from './component/Terms&Conditions';
-import PrivacyPolicy from './component/PrivacyPolicy';
+import PrivacyPolicy from "./component/PrivacyPolicy";
 import RefundAndCancellation from './component/RefundAndCancellation';
 import Product from './component/allgames/Product';
+import { ScrollToTopController } from './component/Windowtoscroll';
 
 const App = () => {
   return (
     <>
       <ScrollToTopButton />
       <Router>
+      <ScrollToTopController/>
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
@@ -26,7 +28,8 @@ const App = () => {
           <Route path='/AllGames' element={<AllGames />} />
           <Route path='/Contact' element={<Contact />} />
           <Route path='/terms_and_conditions' element={<TermsAndConditions />} />
-          <Route path='/privacy_policy' element={<PrivacyPolicy />} />
+          {/* <Route path='/privacy_policy' element={<PrivacyPolicy />} /> */ }
+          <Route path='/Privacy' element={<PrivacyPolicy/>}/>
           <Route path='/Refund_and_cancellation_policy' element={<RefundAndCancellation />} />
           <Route path="/Product/:productId" element={<Product />} />
           <Route path="*" element={<Home />} />

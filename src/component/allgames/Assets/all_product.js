@@ -25,7 +25,7 @@ import p24_img from "./download (2) (1).jpeg";
 let all_product = [
   {
     id: 1,
-    name: "Andar Bhar Game",
+    name: "Andar Bahar Game",
     image: p1_img,
     pargraph:
       "In the game, every moment brings a new thrill and challenge, where players must utilize their skills to the fullest.",
@@ -41,7 +41,7 @@ let all_product = [
   },
   {
     id: 2,
-    name: "Bascarat game",
+    name: "Baccarat Game",
     image: p2_img,
     pargraph:
       "In the game, every moment brings a new thrill and challenge, where players must utilize their skills to the fullest.",
@@ -57,7 +57,7 @@ let all_product = [
   },
   {
     id: 3,
-    name: "color prediction",
+    name: "Colour Prediction",
     pargraph:
       "In the game, every moment brings a new thrill and challenge, where players must utilize their skills to the fullest.",
     featureshead: "Progressive Jackpots:",
@@ -121,7 +121,7 @@ let all_product = [
   },
   {
     id: 7,
-    name: "Dragon and Tiger",
+    name: "Dragon & Tiger",
     pargraph:
       "In the game, every moment brings a new thrill and challenge, where players must utilize their skills to the fullest.",
     featureshead: "Progressive Jackpots:",
@@ -153,7 +153,7 @@ let all_product = [
   },
   {
     id: 9,
-    name: "Custom Boot",
+    name: "Custom Bot",
     pargraph:
       "In the game, every moment brings a new thrill and challenge, where players must utilize their skills to the fullest.",
     featureshead: "Progressive Jackpots:",
@@ -185,7 +185,7 @@ let all_product = [
   },
   {
     id: 11,
-    name: "jackpoat 3patti",
+    name: "Jackpot 3 Patti",
     pargraph:
       "In the game, every moment brings a new thrill and challenge, where players must utilize their skills to the fullest.",
     featureshead: "Progressive Jackpots:",
@@ -201,7 +201,7 @@ let all_product = [
   },
   {
     id: 12,
-    name: "jandimunda",
+    name: "Jandi Munda",
     pargraph:
       "In the game, every moment brings a new thrill and challenge, where players must utilize their skills to the fullest.",
     featureshead: "Progressive Jackpots:",
@@ -217,7 +217,7 @@ let all_product = [
   },
   {
     id: 13,
-    name: "Poker",
+    name: "Poker games",
     pargraph:
       "In the game, every moment brings a new thrill and challenge, where players must utilize their skills to the fullest.",
     featureshead: "Progressive Jackpots:",

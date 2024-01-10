@@ -80,7 +80,7 @@ const Navbar = () => {
                     </li>
                    
                     <li>
-                      <a href="https://wa.me/+91-8619811154" className="rss">
+                      <a href="https://wa.me/+918619811154" className="rss">
                         <FaWhatsapp />
                       </a>
                     </li>
@@ -135,20 +135,20 @@ const Navbar = () => {
                           <div className="all-games-dropdown">
                             {/* Add your dropdown content here */}
                             <ul>
-                              {game_name.map((list, index) => {
-                                return (
-                                  <Link to={`/Product/${list.id}`}>
-                                    <li>{list.name}</li>
-                                  </Link>
-                                );
-                              })}
+                                {game_name.map((list, index) => {
+                                  return (
+                                    <Link to={`/Product/${list.name.split(" ").join("_")}`}>
+                                      <li>{list.name}</li>
+                                    </Link>
+                                  );
+                                })}
 
                               {/* Add more games as needed */}
                             </ul>
                             <ul>
                               {game_name_second.map((list, index) => {
                                 return (
-                                  <Link to={`/Product/${list.id}`}>
+                                  <Link to={`/Product/${list.name.split(" ").join("_")}`}>
                                     <li>{list.name}</li>
                                   </Link>
                                 );

@@ -12,7 +12,7 @@ const Product = () => {
   const { productId } = useParams();
   console.log("productId:", productId);
 
-  const product = all_product.find((e) => e.id === Number(productId));
+  const product = all_product.find((e) => e.name === productId.split("_").join(" "));
   console.log("product:", product);
 
   return (

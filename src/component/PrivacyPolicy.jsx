@@ -33,7 +33,7 @@ const PrivacyPolicy = () => {
                 <div style={{textAlign:"justify"}} className="contact-item fs-4 ">
                   <p>
                     This
-                    privacy policy (“Policy”) relates to the manner MAHI
+                    privacy policy (“Policy”) relates to the manner Rahi
                     ENTERPRISES (“we”, “us”, “our”) in which we use, handle and
                     process the data that you provide us in connection with
                     using the products or services we offer. By using this
@@ -45,7 +45,7 @@ const PrivacyPolicy = () => {
                     protected in accordance with applicable laws and
                     regulations. We urge you to acquaint yourself with this
                     Policy to familiarize yourself with the manner in which your
-                    data is being handled by us. MAHI ENTERPRISES may change
+                    data is being handled by us. Rahi ENTERPRISES may change
                     this Policy periodically and we urge you to check this page
                     for the latest version of the Policy in order to keep
                     yourself updated. What data is being collected We may

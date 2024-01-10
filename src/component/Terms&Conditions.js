@@ -26,7 +26,7 @@ const TermsAndConditions = () => {
             <div style={{textAlign:"justify"}} className="contact-item fs-3">
              <p>
 These Terms and Conditions, along with privacy policy or other terms (“Terms”) constitute a binding
-agreement by and between MAHI ENTERPRISES, ( “Website Owner” or “we” or “us” or “our”) and
+agreement by and between Rahi ENTERPRISES, ( “Website Owner” or “we” or “us” or “our”) and
 you (“you” or “your”) and relate to your use of our website, goods (as applicable) or services (as
 applicable) (collectively, “Services”).
 By using our website and availing the Services, you agree that you have read and accepted these Terms
