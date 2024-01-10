@@ -36,7 +36,7 @@ export default function BasicSelect() {
                       <Grid item xs={ 6 }>
                       {game_name.map((list, index) => {
                           return (
-                            <Link to={`/Product/${list.id}`}>
+                            <Link to={`/Product/${list.name.split(" ").join("_")}`}>
               <MenuItem sx={{color:"black"}} value={10}>{list.name}</MenuItem>
               </Link>
               );
