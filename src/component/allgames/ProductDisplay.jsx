@@ -7,6 +7,8 @@ import { Link, useNavigate } from "react-router-dom";
 import { FaAngleRight, FaPlay } from "react-icons/fa";
 import popular_game from "../../component/allgames/Assets/popular_game";
 import popular_gamesecond from '../../component/allgames/Assets/popular_gamesecond'
+import SeoHelmet from "../Helmet";
+import all_product from "./Assets/all_product";
 const ProductDisplay = (props) => {
   const { product } = props;
   const {addToCart} = useContext(ShopContext);
@@ -30,6 +32,15 @@ const ProductDisplay = (props) => {
 
   return (
     <div>
+     { all_product.map((item,index)=>{
+      return(
+        <SeoHelmet
+         pagetitle={item.Title}
+         description={item.Description}
+         keywords= {item.Keyword}
+       />
+
+      )})}
     <section
       className="pageheader-section"
       style={{ backgroundImage: "url(/images/1000_F_416254586_YnctPtejbIpnRuwdPK2wd559TpSm3duR-transformed-transformed.jpeg)" }}
@@ -133,7 +144,7 @@ const ProductDisplay = (props) => {
         <div className="col-lg-6 col-12 cat-1">
           <div className="game__item item-layer">
                                       <div className="game__inner text-center p-0">
-                                      <Link to={`/Product/${item.id}`}>
+                                      <Link to={`/AllGame/${item.name}`}>
               <div className="game__thumb mb-0">
                 <img src={item.image} alt="game-img" className="rounded-3 w-100" />
                                           </div>
@@ -159,7 +170,7 @@ const ProductDisplay = (props) => {
                 <div className="col-lg-6 col-12 cat-1">
                 <div className="game__item item-layer">
                   <div className="game__inner text-center p-0">
-                  <Link to={`/Product/${item.id}`}>
+                  <Link  to={`/AllGame/${item.name}`}>
                     <div className="game__thumb mb-0">
                       <img src={item.image} alt="game-img" className="rounded-3 w-100" />
                     </div>

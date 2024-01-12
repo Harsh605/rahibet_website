@@ -1,5 +1,5 @@
 import p21_img from "./02 (1).jpg";
-import p22_img from "./pngtree-d-realistic-roulette-wheel-and-slot-machine-on-blue-background-experience-image_3737093.jpg";
+import p22_img from "./casinogamein.jpg";
 
 
 
@@ -12,7 +12,7 @@ let popular_game = [
     },
     {  id: 22,
         image: p22_img,
-        name: " Color predtion ",
+        name: "Color predtion",
         
     },
   

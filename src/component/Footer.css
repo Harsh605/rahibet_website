@@ -27634,5 +27634,8 @@ button.swiper-pagination-bullet {
 .swiper-container-coverflow .swiper-wrapper {
     -ms-perspective: 1200px
 }
+.about-in-in{
+    cursor: pointer;
+}
 
 /*# sourceMappingURL=style.min.css.map */

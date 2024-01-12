@@ -151,31 +151,42 @@ const Footer = () => {
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="footer-middle-item-wrapper">
                   <div className="footer-middle-item mb-lg-0">
-                    <div className="fm-item-title">
-                      <h4>Our Top Pages</h4>
+                    <h3>OUR ALL PAGES</h3>
+                    <div className="fm-item-title"
+                                              onClick={() => navigate("/About")}>
+                      <p style={{cursor:"pointer",marginTop:"30px"}}>ABOUT</p>
                     </div>
                     <div className="fm-item-content">
+                      <div className="fm-item-widget lab-item">
+                        <div
+                          onClick={() => navigate("/Tournament")}
+                          className="lab-inner"
+                        >
+                          <p style={{cursor:"pointer"}}>TOURNAMENT</p>
+                        </div>
+                      </div>
+                      <div className="fm-item-widget lab-item">
+                        <div                           onClick={() => navigate("/AllGames")} className="lab-inner">
+                          <p style={{cursor:"pointer"}}>ALL GAMES</p>
+                        </div>
+                      </div>
+                      <div className="fm-item-widget lab-item">
+                        <div
+                          // onClick={() => navigate("/About")}
+                          className="lab-inner"
+                        >
+                          <p style={{cursor:"pointer"}}>BLOG </p>
+                        </div>
+                      </div>
                       <div className="fm-item-widget lab-item">
                         <div
                           onClick={() => navigate("/Contact")}
                           className="lab-inner"
                         >
-                          <h4>Contact Us</h4>
+                          <p style={{cursor:"pointer"}}>CONTACT US </p>
                         </div>
                       </div>
-                      <div className="fm-item-widget lab-item">
-                        <div className="lab-inner">
-                          <h4>Blog</h4>
-                        </div>
-                      </div>
-                      <div className="fm-item-widget lab-item">
-                        <div
-                          onClick={() => navigate("/About")}
-                          className="lab-inner"
-                        >
-                          <h4>ABOUT Us</h4>
-                        </div>
-                      </div>
+
                     </div>
                   </div>
                 </div>
@@ -188,12 +199,10 @@ const Footer = () => {
                     </div>
                     <div className="fm-item-content">
                       <p>
-                        Delve into the exciting world of casino games, where
-                        luck meets skill in an immersive gaming experience. From
-                        classic favorites like poker, blackjack, and roulette to
-                        modern slot machines with dynamic themes, our casino
-                        games offer thrilling opportunities to test your
-                        strategy and enjoy the rush of winning.
+                       Delve into the exciting world of games, where luck meets skill in an immersive gaming
+experience. From classic favourites like ludo, poker, blackjack, dragon and tiger, to rummy,
+roulette with dynamic themes, our games offer thrilling opportunities to test your strategy and
+enjoy the rush of winning
                       </p>
                       <form>
                         <button className="default-button">

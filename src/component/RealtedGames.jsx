@@ -10,7 +10,7 @@ const RealtedGames = () =>
          <section className="collection-section padding-top padding-bottom">
         <div className="container">
           <div className="section-header">
-            <h2> Casino Gaming Experience</h2>
+            <h2> MULTI Player GAMING EXPERIENCE</h2>
           </div>
           <div className="section-wrapper game">
             <div className="row g-4 justify-content-center">

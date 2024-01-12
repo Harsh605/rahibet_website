@@ -5,7 +5,7 @@ import BreadCrums from "./BreadCrums";
 import ProductDisplay from "./ProductDisplay";
 // import RelatedProducts from "./RelatedProduct";
 
-const Product = () => {
+const AllGame = () => {
   const { all_product } = useContext(ShopContext);
   console.log("all_product:", all_product);
 
@@ -24,4 +24,4 @@ const Product = () => {
   );
 };
 
-export default Product;
+export default AllGame;

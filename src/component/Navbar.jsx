@@ -137,7 +137,7 @@ const Navbar = () => {
                             <ul>
                                 {game_name.map((list, index) => {
                                   return (
-                                    <Link to={`/Product/${list.name.split(" ").join("_")}`}>
+                                    <Link to={`/AllGame/${list.name.split(" ").join("_")}`}>
                                       <li>{list.name}</li>
                                     </Link>
                                   );
@@ -148,7 +148,7 @@ const Navbar = () => {
                             <ul>
                               {game_name_second.map((list, index) => {
                                 return (
-                                  <Link to={`/Product/${list.name.split(" ").join("_")}`}>
+                                  <Link to={`/AllGame/${list.name.split(" ").join("_")}`}>
                                     <li>{list.name}</li>
                                   </Link>
                                 );

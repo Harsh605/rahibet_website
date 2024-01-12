@@ -16,12 +16,14 @@ const Home = () =>
     <div className="row g-0">
       <div className="col-xl-6 col-lg-7 col-12">
         <div className="banner__content">
-          <h3>the best website</h3>
-          <h1>Online Casino</h1>
-          <h2>Genuine Money Transaction</h2>
+          <h3>the best website for</h3>
+          <h1 style={{fontSize:"75px"}}> Online Gaming Platform</h1>
+          <h2>Play and Earn Real Cash</h2>
           <p>
-Welcome to our premier casino gaming platform! Dive into the excitement with our vast selection of 25 thrilling casino games. From classic favorites to modern twists, our website offers an immersive experience for every gaming enthusiast. Join us for a dynamic journey filled with entertainment, strategy, and the chance to win big!</p>
-          <a onClick={()=>navigate('/Contact')} href="" className="default-button"><span>join us today  <FaAngleRight /></span> </a>
+Welcome To Our Premier Online Gaming Platform! Dive Into The Excitement With Our Vast
+Selection Of 25 Thrilling Multiple Games. From Classic Favourites To Modern Twists, Our
+Website Offers An Immersive Experience For Every Gaming Enthusiast. Join Us For A
+Dynamic Journey Filled With Entertainment, Strategy, And The Chance To Win Big</p>          <a onClick={()=>navigate('/Contact')} href="" className="default-button"><span>join us today  <FaAngleRight /></span> </a>
         </div>
       </div>
     </div>

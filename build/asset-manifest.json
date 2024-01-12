@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.f78e1f80.css",
-    "main.js": "/static/js/main.78c2674d.js",
-    "static/js/787.3221a2fe.chunk.js": "/static/js/787.3221a2fe.chunk.js",
+    "main.css": "/static/css/main.4eef2c89.css",
+    "main.js": "/static/js/main.ef4d5e84.js",
+    "static/js/787.6961ba7a.chunk.js": "/static/js/787.6961ba7a.chunk.js",
     "static/media/roullateai.jpg": "/static/media/roullateai.9bb047391c9e3be3a822.jpg",
     "static/media/colorpredtionai.jpg": "/static/media/colorpredtionai.0c5fc7f1dcf18feb0cc1.jpg",
     "static/media/privaterummyai.jpg": "/static/media/privaterummyai.a54c84ddbea35bfde0d0.jpg",
     "static/media/casino102.jpeg": "/static/media/casino102.541a6a28d5772e17c080.jpeg",
     "static/media/dealrummyai.jpg": "/static/media/dealrummyai.9804f93eac0fb3209335.jpg",
     "static/media/02 (1).jpg": "/static/media/02 (1).befac5139ec3577e80cd.jpg",
-    "static/media/pngtree-d-realistic-roulette-wheel-and-slot-machine-on-blue-background-experience-image_3737093.jpg": "/static/media/pngtree-d-realistic-roulette-wheel-and-slot-machine-on-blue-background-experience-image_3737093.74c458ae80ce19a8c06e.jpg",
+    "static/media/casinogamein.jpg": "/static/media/casinogamein.74c458ae80ce19a8c06e.jpg",
     "static/media/unnamed.webp": "/static/media/unnamed.f6679dbeea65c4f130fa.webp",
     "static/media/download (3) (1).jpeg": "/static/media/download (3) (1).7db16b47eb3d44c6d7aa.jpeg",
     "static/media/download (1) (1).jpeg": "/static/media/download (1) (1).9363a962ca7ab7d3896a.jpeg",
@@ -29,12 +29,12 @@
     "static/media/images (2) (1).jpeg": "/static/media/images (2) (1).24d5fe9c287c896437c1.jpeg",
     "static/media/jackpoat3patti.jpeg": "/static/media/jackpoat3patti.643bfbae52db288f95ad.jpeg",
     "index.html": "/index.html",
-    "main.f78e1f80.css.map": "/static/css/main.f78e1f80.css.map",
-    "main.78c2674d.js.map": "/static/js/main.78c2674d.js.map",
-    "787.3221a2fe.chunk.js.map": "/static/js/787.3221a2fe.chunk.js.map"
+    "main.4eef2c89.css.map": "/static/css/main.4eef2c89.css.map",
+    "main.ef4d5e84.js.map": "/static/js/main.ef4d5e84.js.map",
+    "787.6961ba7a.chunk.js.map": "/static/js/787.6961ba7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f78e1f80.css",
-    "static/js/main.78c2674d.js"
+    "static/css/main.4eef2c89.css",
+    "static/js/main.ef4d5e84.js"
   ]
 }

@@ -13,7 +13,7 @@ const CasinoJackpots = () => {
       >
         <div className="container">
           <div className="section-header">
-            <h2>CASINO JACKPOTS</h2>
+            <h2>GAMES JACKPOTS</h2>
             <p>
               At Modeltheme, we show only the best websites and portfolios built
               completely with passion, simplicity and creativity !
