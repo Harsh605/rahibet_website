@@ -12,7 +12,7 @@ let popular_game = [
     },
     {  id: 22,
         image: p22_img,
-        name: "Color predtion",
+        name: "Color prediction",
         
     },
   

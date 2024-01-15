@@ -47,7 +47,7 @@ const ProductDisplay = (props) => {
     >
       <div className="container">
         <div className="section-wrapper text-center text-uppercase">
-            <h2 className="pageheader-title">{ product.name}</h2>
+            <h1 className="pageheader-title">{ product.name}</h1>
           <nav aria-label="breadcrumb">
             <ol className="breadcrumb justify-content-center mb-0">
               <li className="breadcrumb-item">

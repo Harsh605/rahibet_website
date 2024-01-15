@@ -142,7 +142,7 @@ const RealtedGames = () =>
               </div>
               <div className="game__overlay">
                 <div className="game__overlay-left">
-                  <h4>Dragon Tiger games</h4>
+                  <h4> Dragon & Tiger</h4>
                 
                 </div>
                 <div className="game__overlay-right">
@@ -160,7 +160,7 @@ const RealtedGames = () =>
               </div>
               <div className="game__overlay">
                 <div className="game__overlay-left">
-                  <h4>Color predtion</h4>
+                  <h4>Color Prediction</h4>
                   
                 </div>
                 <div className="game__overlay-right">

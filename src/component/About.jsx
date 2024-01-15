@@ -9,7 +9,7 @@ const About = () => {
   const navigate = useNavigate();
   return (
     <div>
-      <SeoHelmet
+       <SeoHelmet
         pagetitle="Rahi Bet - 24x7 Online Gaming Platform"
         description="Rahibet is a real money online gaming app that lets you play
 games for quick cash. Play with real cash games of Call Break, Teen Patti,

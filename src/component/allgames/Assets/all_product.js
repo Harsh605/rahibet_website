@@ -25,7 +25,7 @@ import p24_img from "./download (2) (1).jpeg";
 let all_product = [
 {
   id: 1,
-  name: "Andar Bahar Game",
+  name: "Andhar Bahar Game",
   image: p1_img,
   pargraph:
     "In the game, every moment brings a new thrill and challenge, where players must utilize their skills to the fullest.",
@@ -241,7 +241,7 @@ Keywords: "Jackpot 3 Patti, Jackpot Teen Patti, Teen Patti, Rahi Bet, real cash 
   },
   {
     id: 12,
-    name: "Jandi Munda",
+    name: "Jhandi Munda",
     pargraph:
       "In the game, every moment brings a new thrill and challenge, where players must utilize their skills to the fullest.",
     featureshead: "Progressive Jackpots:",
@@ -299,7 +299,7 @@ Keywords: "Private Rummy, Online Private Rummy, private Rummy Games, Point Rummy
   },
   {
     id: 15,
-    name: "Privte Table",
+    name: "Private Table",
     pargraph:
       "In the game, every moment brings a new thrill and challenge, where players must utilize their skills to the fullest.",
     featureshead: "Progressive Jackpots:",
@@ -434,7 +434,7 @@ Keyword: "Zoo Roulette, Roulette Game, Earn Real Cash, Play and win real cash, R
   {
     id: 22,
     image: p22_img,
-    name: "Color predtion",
+    name: "Color prediction",
     pargraph:
       "In the game, every moment brings a new thrill and challenge, where players must utilize their skills to the fullest.",
     featureshead: "Progressive Jackpots:",
@@ -450,7 +450,7 @@ Keyword: "Zoo Roulette, Roulette Game, Earn Real Cash, Play and win real cash, R
   {
     id: 23,
     image: p23_img,
-    name: "Dragon Tiger games",
+    name: "Dragon & Tiger",
     pargraph:
       "In the game, every moment brings a new thrill and challenge, where players must utilize their skills to the fullest.",
     featureshead: "Progressive Jackpots:",

@@ -6,13 +6,15 @@ import Footer from './component/Footer';
 import ScrollToTopButton from './component/ScrollToTopButton';
 import About from './component/About';
 import Tournament from './component/Tournament';
-import AllGames from './component/AllGames';
+// import AllGames from './component/AllGames';
 import Contact from './component/Contact';
 import TermsAndConditions from './component/Terms&Conditions';
 import PrivacyPolicy from "./component/PrivacyPolicy";
 import RefundAndCancellation from './component/RefundAndCancellation';
 import Product from './component/allgames/Product';
 import { ScrollToTopController } from './component/Windowtoscroll';
+import AllGames from './component/OurAllGames';
+// import OurAllGames from './component/OurAllGames';
 
 const App = () => {
   return (
@@ -25,7 +27,7 @@ const App = () => {
           <Route path='/' element={<Home />} />
           <Route path='/About' element={<About />} />
           <Route path='/Tournament' element={<Tournament />} />
-          <Route path='/AllGames' element={<AllGames />} />
+          <Route path='/OurAllGames' element={<AllGames />} />
           <Route path='/Contact' element={<Contact />} />
           <Route path='/terms_and_conditions' element={<TermsAndConditions />} />
           {/* <Route path='/privacy_policy' element={<PrivacyPolicy />} /> */ }

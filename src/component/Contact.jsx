@@ -1,15 +1,27 @@
 import React from 'react'
 import './Contact.css'
 import { useNavigate } from 'react-router-dom'
+import SeoHelmet from './Helmet'
 const Contact = () =>
 {
   const navigate = useNavigate()
   return (
-   <div>
+   <div >
+   
+      <SeoHelmet
+        title="Contact Us - Rahi Bet Gaming App"
+        description="Rahibet provides the best customer service. Email our 24-hour customer
+support to get in contact with us. Email us at rahibet74@gmail.com.
+"
+        keywords="- Download Game, Download App, Play and Earn Money, Contact Rahi Bet,
+RahiBet, Rahi Bet, Rahi Bet gaming App,
+"
+      />
+
   <section className="pageheader-section" style={{backgroundImage: 'url(/images/1000_F_416254586_YnctPtejbIpnRuwdPK2wd559TpSm3duR-transformed-transformed.jpeg)'}}>
     <div className="container">
       <div className="section-wrapper text-center text-uppercase">
-        <h2 className="pageheader-title">Contact Us</h2>
+        <h2 className="pageheader-title">24 Hour Customer Support</h2>
         <nav aria-label="breadcrumb">
           <ol className="breadcrumb justify-content-center mb-0">
           <li className="breadcrumb-item">
@@ -26,8 +38,49 @@ const Contact = () =>
       </div>
     </div>
   </section>  
-  <div className="info-section padding-top padding-bottom">
-    <div className="container">
+  <div style={{paddingTop:"50px"}}>
+    <div className='container-inner'>
+                <h3 style={{display:"flex",alignItems:"center",justifyContent:"center",textAlign:"center",marginRight:"30px",marginBottom:"50px"}}>For any kind of queries, please write to us below </h3>
+                <div>
+              <div style={{display:"flex"}} className="form-div-popup-container">
+                <div className="main-popup-form">
+                  <div  className="main-popup-form-inputs">
+                    <input   type="text" placeholder="Enter your full name" />
+                    <input type="text" placeholder="Enter subject " />
+                  </div>
+                  <div className="main-popup-form-inputs1">
+                    <input type="text" placeholder="Enter your phone number" />
+                    <input type="text" placeholder="Enter your Gmail Address" />
+                  </div>
+                  
+                  <div className="main-popup-form-textera">
+                    <textarea
+                      name=""
+                      id=""
+                      cols="42"
+                      rows="7"
+                      placeholder="Write your query  (Minimum 150 characters)"
+                    ></textarea>
+                  </div>
+                  
+                  <div className="form-button-div">
+                    <button>CONTACT US</button>
+                  </div>
+                </div>
+                
+              
+              <div className='image-inner-none'>
+                <img style={{width:"460px",marginLeft:"20%",height:"51vh"}} src="/images/Inside a wrecked spaceship is a rave with children (1).webp" alt="wd" />
+              </div>
+              </div>
+              </div>
+              <h4 style={{display:"flex",alignItems:"center",justifyContent:"center",textAlign:"center",marginRight:"30px",marginTop:"40px"}}>Rahi Bet Email Support</h4>
+              <p style={{display:"flex",alignItems:"center",justifyContent:"center",textAlign:"center",marginRight:"30px"}}>Do you want to talk about something specific? Please contact us at rahibet74@gmail.com if
+you have any questions. Our mailbox is accessible to answer any questions or provide
+feedback.
+</p>
+              </div>
+    <div style={{paddingTop:"100px"}} className="container">
       <div className="section-header">
         <h2>We're Always Eager To Hear From You!</h2>
       </div>

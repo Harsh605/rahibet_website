@@ -127,7 +127,7 @@ const Navbar = () => {
                       >
                         <a
                           style={{ cursor: "pointer" }}
-                          onClick={() => navigate("/AllGames")}
+                          onClick={() => navigate("/OurAllGames")}
                         >
                           All Games
                         </a>

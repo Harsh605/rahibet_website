@@ -1,6 +1,7 @@
 import React from "react";
 import "./Tournament.css";
 import { useNavigate } from "react-router-dom";
+import SeoHelmet from "./Helmet";
 const Tournament = () => {
   const navigate = useNavigate();
   const data = [
@@ -62,13 +63,23 @@ const Tournament = () => {
 
   return (
     <div>
+       <SeoHelmet
+        metatitle="Rahibet - Play The Game and Win Tournament"
+        metadescription="Join in a Rahibet gaming competition to use your skills to real earn
+cash! Win by playing games like Teen Patti, Car Roulette, Rummy, and Ludo by you or as a
+team!
+"
+        keywords=" Win Tournament, Play The Game, Real earn Cash, Rahibet, Play and Earn real
+Cash, Online Gaming Platform, competitive gaming platform, game tournaments, online
+tournaments today,"
+      />
       <section
         className="pageheader-section"
         style={{ backgroundImage: "url(/images/1000_F_416254586_YnctPtejbIpnRuwdPK2wd559TpSm3duR-transformed-transformed.jpeg)" }}
       >
         <div className="container">
           <div className="section-wrapper text-center text-uppercase">
-            <h2 className="pageheader-title">Our Rummy Tournament</h2>
+            <h2 className="pageheader-title">Our Game  Tournament</h2>
             <nav aria-label="breadcrumb">
               <ol className="breadcrumb justify-content-center mb-0">
                 <li className="breadcrumb-item">

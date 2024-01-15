@@ -1,9 +1,20 @@
 import React from "react";
 import './GameReview.css'
 import { FaPlay, FaStar } from 'react-icons/fa';
+import SeoHelmet from "./Helmet";
 const GameReview = () => {
     return (
 <div>
+  <SeoHelmet
+        metadescription="Welcome to our online gaming platform. Play some interesting poker
+games on Rahi bet. Play and Earn Real Cash, Play games on India’s best Real Money
+earning gaming app, Play to Win Real Cash Daily.
+"
+        keywords=" online multiple games, online gaming platform, Rahi Bet, win real cash games,
+play and win cash, play games for cash, play and earn money, real cash games, real money
+gaming app, poker games, call break multiplayer game, card games, rummy games, spin &
+car roulette, head & tail, Ludo, color game, color prediction, animal game,"
+      />
   <div className="testimonial padding-top padding-bottom" style={{backgroundImage: 'url(assets/images/testimonial/bg.png)'}}>
     <div className="container">
       <div className="section-header">
@@ -15,12 +26,12 @@ const GameReview = () => {
           <div className="col-lg-6 col-12">
             <div className="testimonial__thumb position-relative">
               <img style={{width:"600px"}}  src="/images/trophy_cleanup.jpg" alt="testimonial" />
-              <div className="video-icon">
-                <a href="https://www.youtube.com/embed/g5eQgEuiFC8" data-rel="lightcase">
+              {/* <div className="video-icon"> */}
+                {/* <a href="https://www.youtube.com/embed/g5eQgEuiFC8" data-rel="lightcase">
                 <FaPlay style={{color:"red" }} />
                   <span className="pluse" />
-                </a>
-              </div>
+                </a> */}
+              {/* </div> */}
             </div>
           </div>
           <div className="col-lg-6 col-12">
