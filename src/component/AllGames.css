@@ -21777,7 +21777,7 @@ ul li {
 
 .header-section {
     /* background: rgba(35, 42, 92, .3); */
-    background-color: #232A5C;
+    background-color: #A7A8FA;
         /* background-color: #; */
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
@@ -21846,7 +21846,7 @@ ul li {
 }
 
 .header-top * {
-    color: #fff
+    color: black
 }
 
 @media(max-width: 991px) {
@@ -22508,10 +22508,17 @@ ul li {
     padding-top: 250px;
     padding-bottom: 150px
 }
+@media(max-width: 992px) {
+    .banner {
+        /* background-position: center */
+        background-image: none !important;
+    }
+}
 
 @media(min-width: 768px) {
     .banner {
-        padding: 350px 0 330px
+        padding: 350px 0 330px;
+        
     }
 }
 

@@ -47,16 +47,16 @@ const Navbar = () => {
               <div className="header-top">
                 <div className="header-top-area">
                   <ul className="left">
-                    <li>
-                      <MdEmail />
+                    <li  >
+                      <MdEmail   />
 
                       <a href="mailto:rahibet74@gmail.com" target="_blank" rel="noopener noreferrer">
-        <span>rahibet74@gmail.com</span>
+        <span style={{color:"black"}}>rahibet74@gmail.com</span>
       </a>
                     </li>
                     <li>
                       <FaMapMarkerAlt />
-                      <a href="https://www.google.com/maps/place/Mumbai, Maharashtra">
+                      <a style={{color:"black"}} href="https://www.google.com/maps/place/Mumbai, Maharashtra">
 
                       Mumbai, Maharashtra
                       </a>
@@ -98,7 +98,7 @@ const Navbar = () => {
                     <ul className="menu">
                       <li>
                         <a
-                          style={{ cursor: "pointer" }}
+                          style={{ cursor: "pointer",color:"black" }}
                           onClick={() => navigate("/")}
                         >
                           Home
@@ -106,7 +106,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <a
-                          style={{ cursor: "pointer" }}
+                          style={{ cursor: "pointer",color:"black" }}
                           onClick={() => navigate("/About")}
                         >
                           About
@@ -114,7 +114,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <a
-                          style={{ cursor: "pointer" }}
+                          style={{ cursor: "pointer",color:"black" }}
                           onClick={() => navigate("/Tournament")}
                         >
                           Tournament
@@ -126,7 +126,7 @@ const Navbar = () => {
                         onMouseLeave={() => setAllGamesHovered(false)}
                       >
                         <a
-                          style={{ cursor: "pointer" }}
+                          style={{ cursor: "pointer",color:"black" }}
                           onClick={() => navigate("/OurAllGames")}
                         >
                           All Games
@@ -159,7 +159,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <a
-                          style={{ cursor: "pointer" }}
+                          style={{ cursor: "pointer",color:"black" }}
                           onClick={() => navigate("/Contact")}
                         >
                           Contact

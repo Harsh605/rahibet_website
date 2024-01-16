@@ -153,7 +153,7 @@ export default function SwipeableTemporaryDrawer2() {
       {["top"].map((anchor) => (
         <React.Fragment key={anchor}>
           <Button
-            style={{ fontSize: "36px", color: "white" }}
+            style={{ fontSize: "36px", color: "black" }}
             onClick={toggleDrawer(anchor, true)}
           >
             <FaInfoCircle />{" "}

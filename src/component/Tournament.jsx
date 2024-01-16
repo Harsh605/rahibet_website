@@ -64,8 +64,8 @@ const Tournament = () => {
   return (
     <div>
        <SeoHelmet
-        metatitle="Rahibet - Play The Game and Win Tournament"
-        metadescription="Join in a Rahibet gaming competition to use your skills to real earn
+        pagetitle="Rahibet - Play The Game and Win Tournament"
+        description="Join in a Rahibet gaming competition to use your skills to real earn
 cash! Win by playing games like Teen Patti, Car Roulette, Rummy, and Ludo by you or as a
 team!
 "

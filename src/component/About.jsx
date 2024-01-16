@@ -63,10 +63,10 @@ gaming website"
                     className="w-100"
                   />
                   <div className="video-icon">
-                    <a data-rel="lightcase">
+                    {/* <a data-rel="lightcase">
                       <FaPlay style={{ color: "red" }} />
                       <span className="pluse" />
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>

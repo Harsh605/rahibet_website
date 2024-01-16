@@ -1,5 +1,5 @@
 let game_name = [
-  { id: 1, name: "Andhar Bahar Game" },
+  { id: 1, name: "Andar Bahar game" },
   { id: 2, name: "Baccarat Game" },
   { id: 3, name: "Colour Prediction" },
   { id: 4, name: "Deal Rummy" },

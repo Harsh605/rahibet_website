@@ -25,7 +25,7 @@ import p24_img from "./download (2) (1).jpeg";
 let all_product = [
 {
   id: 1,
-  name: "Andhar Bahar Game",
+  name: "Andar Bahar game",
   image: p1_img,
   pargraph:
     "In the game, every moment brings a new thrill and challenge, where players must utilize their skills to the fullest.",
@@ -241,7 +241,7 @@ Keywords: "Jackpot 3 Patti, Jackpot Teen Patti, Teen Patti, Rahi Bet, real cash 
   },
   {
     id: 12,
-    name: "Jhandi Munda",
+    name: "Jandi Munda",
     pargraph:
       "In the game, every moment brings a new thrill and challenge, where players must utilize their skills to the fullest.",
     featureshead: "Progressive Jackpots:",
@@ -254,9 +254,9 @@ Keywords: "Jackpot 3 Patti, Jackpot Teen Patti, Teen Patti, Rahi Bet, real cash 
     features2:
       "Games may include interactive elements, such as skill-based bonus rounds or mini-games, making the gaming experience more engaging.",
     image: p12_img,
-    Title: "Rahi Bet - Jhandi Munda | Play And Win Real Cash",
-    Description: "Enjoy pleasure with the funny Jhandi Munda King on your phone. Play inJhandi Munda games with your family and friends.",
-Keywords: "Jhandi Munda, Jhandi Munda Game, Play Jhandi Munda, Rahi Bet, JhandiMunda King, Online Gaming Platform, win real cash games, play and win cash,"
+    Title: "Rahi Bet - Jandi Munda | Play And Win Real Cash",
+    Description: "Enjoy pleasure with the funny Jandi Munda King on your phone. Play inJandi Munda Game with your family and friends.",
+Keywords: "Jandi Munda, Jandi Munda Game, Play Jandi Munda, Rahi Bet, JhandiMunda King, Online Gaming Platform, win real cash games, play and win cash,"
 
   },
   {

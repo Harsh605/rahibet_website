@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 const gamesData = [
   {
     category: "collection-three",
-    name: "Jhandi Munda Games",
+    name: "Jandi Munda Game",
     image: "/images/jandimunda.webp",
   },
   {
@@ -43,7 +43,7 @@ const gamesData = [
   },
   {
     category: "collection-three",
-    name: "Bac Carat To Baccara",
+    name: " Baccarat",
     image: "/images/bascarat (1).jpeg",
   },
 
@@ -55,7 +55,7 @@ const gamesData = [
 
   {
     category: "collection-one",
-    name: "o Color Prediction ",
+    name: "Color Prediction ",
     image: "/images/colorpredtionai.jpg",
   },
   {

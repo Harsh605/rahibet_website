@@ -9,7 +9,7 @@ const Contact = () =>
    <div >
    
       <SeoHelmet
-        title="Contact Us - Rahi Bet Gaming App"
+        pagetitle="Contact Us - Rahi Bet Gaming App"
         description="Rahibet provides the best customer service. Email our 24-hour customer
 support to get in contact with us. Email us at rahibet74@gmail.com.
 "

@@ -166,7 +166,7 @@ const Footer = () => {
                         </div>
                       </div>
                       <div className="fm-item-widget lab-item">
-                        <div                           onClick={() => navigate("/AllGames")} className="lab-inner">
+                        <div                           onClick={() => navigate("/OurAllGames")} className="lab-inner">
                           <p style={{cursor:"pointer"}}>ALL GAMES</p>
                         </div>
                       </div>

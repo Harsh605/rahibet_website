@@ -6,7 +6,7 @@ const GameReview = () => {
     return (
 <div>
   <SeoHelmet
-        metadescription="Welcome to our online gaming platform. Play some interesting poker
+        description="Welcome to our online gaming platform. Play some interesting poker
 games on Rahi bet. Play and Earn Real Cash, Play games on India’s best Real Money
 earning gaming app, Play to Win Real Cash Daily.
 "

@@ -354,7 +354,7 @@ const CasinoJackpots = () => {
                                 />
                               </div>
                               <div className="game__overlay">
-                                <h4>Color Predtion</h4>
+                                <h4>Color Prediction</h4>
 
                                 <a href="#" className="default-button">
                                   <span>
