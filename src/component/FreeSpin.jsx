@@ -41,11 +41,11 @@ const FreeSpin = () => {
                     <a
                       className="default-button reverse-effect"
                       onClick={() => {
-                        navigate("/AllGames");
+                        navigate("/OurAllGames");
                         window.scrollTo(0, 0);
                       }}
                     >
-                      <span>
+                      <span style={{cursor:"pointer"}}>
                         Browse All Games <FaAngleRight />
                       </span>
                     </a>

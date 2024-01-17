@@ -155,7 +155,7 @@ const ProductDisplay = (props) => {
                 
                 </div>
                 <div className="game__overlay-right">
-                  <a href="#" className="default-button"><span>play now <FaAngleRight /></span> </a>
+                  <a href="https://admin.rahibet.com/letscard/rahibet_1.0.apk" className="default-button"><span>play now <FaAngleRight /></span> </a>
                 </div>
               </div>
             </div>
@@ -181,7 +181,7 @@ const ProductDisplay = (props) => {
                       
                       </div>
                       <div className="game__overlay-right">
-                        <a href="#" className="default-button"><span>play now <FaAngleRight /></span> </a>
+                        <a href="https://admin.rahibet.com/letscard/rahibet_1.0.apk" className="default-button"><span>play now <FaAngleRight /></span> </a>
                       </div>
                     </div>
                   </div>

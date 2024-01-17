@@ -199,7 +199,7 @@ const AllGames = () => {
                       </div>
                       <div className="game__overlay">
                         <h4>{game.name}</h4>
-                        <a href="#" className="default-button">
+                        <a href="https://admin.rahibet.com/letscard/rahibet_1.0.apk" className="default-button">
                           <span>
                             play now <FaAngleRight />
                           </span>{" "}

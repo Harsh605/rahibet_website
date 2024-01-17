@@ -28,7 +28,7 @@ const CasinoJackpots = () => {
                       <h4>top winners list</h4>
                     </div>
                     <div className="jaqport__title-button">
-                      <a className="default-button">
+                      <a  className="default-button">
                         <span>
                           View All <FaAngleRight />
                         </span>
@@ -244,7 +244,7 @@ const CasinoJackpots = () => {
                               <div className="game__overlay">
                                 <h4>poker games</h4>
 
-                                <a href="#" className="default-button">
+                                <a href="https://admin.rahibet.com/letscard/rahibet_1.0.apk" className="default-button">
                                   <span>
                                     play now <FaAngleRight />
                                   </span>{" "}
@@ -266,7 +266,7 @@ const CasinoJackpots = () => {
                               <div className="game__overlay">
                                 <h4>Roulette games</h4>
 
-                                <a href="#" className="default-button">
+                                <a href="https://admin.rahibet.com/letscard/rahibet_1.0.apk" className="default-button">
                                   <span>
                                     play now <FaAngleRight />
                                   </span>{" "}
@@ -288,7 +288,7 @@ const CasinoJackpots = () => {
                               <div className="game__overlay">
                                 <h4>3 Patti games</h4>
 
-                                <a href="#" className="default-button">
+                                <a href="https://admin.rahibet.com/letscard/rahibet_1.0.apk" className="default-button">
                                   <span>
                                     play now <FaAngleRight />
                                   </span>{" "}
@@ -309,11 +309,11 @@ const CasinoJackpots = () => {
                         <a
                           className="default-button reverse-effect"
                           onClick={() => {
-                            navigate("/AllGames");
+                            navigate("/OurAllGames");
                             window.scrollTo(0, 0);
                           }}
                         >
-                          <span>
+                          <span style={{cursor:"pointer"}}>
                             Browse All Games <FaAngleRight />
                           </span>
                         </a>
@@ -334,7 +334,7 @@ const CasinoJackpots = () => {
                               <div className="game__overlay">
                                 <h4>Rummy games</h4>
 
-                                <a href="#" className="default-button">
+                                <a href="https://admin.rahibet.com/letscard/rahibet_1.0.apk" className="default-button">
                                   <span>
                                     play now <FaAngleRight />
                                   </span>{" "}
@@ -356,7 +356,7 @@ const CasinoJackpots = () => {
                               <div className="game__overlay">
                                 <h4>Color Prediction</h4>
 
-                                <a href="#" className="default-button">
+                                <a href="https://admin.rahibet.com/letscard/rahibet_1.0.apk" className="default-button">
                                   <span>
                                     play now <FaAngleRight />
                                   </span>{" "}
@@ -378,7 +378,7 @@ const CasinoJackpots = () => {
                               <div className="game__overlay">
                                 <h4>Private games</h4>
 
-                                <a href="#" className="default-button">
+                                <a href="https://admin.rahibet.com/letscard/rahibet_1.0.apk" className="default-button">
                                   <span>
                                     play now <FaAngleRight />
                                   </span>{" "}

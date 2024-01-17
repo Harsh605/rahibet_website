@@ -110,7 +110,7 @@ const RealtedGames = () =>
                 
                 </div>
                 <div className="game__overlay-right">
-                  <a href="#" className="default-button"><span>play now <FaAngleRight /></span> </a>
+                  <a href="https://admin.rahibet.com/letscard/rahibet_1.0.apk" className="default-button"><span>play now <FaAngleRight /></span> </a>
                 </div>
               </div>
             </div>
@@ -128,7 +128,7 @@ const RealtedGames = () =>
                
                 </div>
                 <div className="game__overlay-right">
-                  <a href="#" className="default-button"><span>play now <FaAngleRight /></span> </a>
+                  <a href="https://admin.rahibet.com/letscard/rahibet_1.0.apk" className="default-button"><span>play now <FaAngleRight /></span> </a>
                 </div>
               </div>
             </div>
@@ -146,7 +146,7 @@ const RealtedGames = () =>
                 
                 </div>
                 <div className="game__overlay-right">
-                  <a href="#" className="default-button"><span>play now <FaAngleRight /></span> </a>
+                  <a href="https://admin.rahibet.com/letscard/rahibet_1.0.apk" className="default-button"><span>play now <FaAngleRight /></span> </a>
                 </div>
               </div>
             </div>
@@ -164,7 +164,7 @@ const RealtedGames = () =>
                   
                 </div>
                 <div className="game__overlay-right">
-                  <a href="#" className="default-button"><span>play now <FaAngleRight /></span> </a>
+                  <a href="https://admin.rahibet.com/letscard/rahibet_1.0.apk" className="default-button"><span>play now <FaAngleRight /></span> </a>
                 </div>
               </div>
             </div>
@@ -172,8 +172,8 @@ const RealtedGames = () =>
         </div>
       </div>
       <div className="button-wrapper text-center mt-5">
-      <a className="default-button reverse-effect" onClick={() => { navigate('/AllGames'); window.scrollTo(0, 0); }}>
-  <span>Browse All Games <FaAngleRight /></span>
+      <a className="default-button reverse-effect" onClick={() => { navigate('/OurAllGames'); window.scrollTo(0, 0); }}>
+  <span style={{cursor:"pointer"}}>Browse All Games <FaAngleRight /></span>
 </a>
 
         
