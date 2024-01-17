@@ -14,6 +14,7 @@ import RefundAndCancellation from './component/RefundAndCancellation';
 import Product from './component/allgames/Product';
 import { ScrollToTopController } from './component/Windowtoscroll';
 import AllGames from './component/OurAllGames';
+import AppDownload from './component/AppDownload';
 // import OurAllGames from './component/OurAllGames';
 
 const App = () => {
@@ -36,6 +37,7 @@ const App = () => {
           <Route path="/AllGame/:productId" element={<Product />} />
           <Route path="*" element={<Home />} />
         </Routes>
+        <AppDownload/>
         <Footer />
       </Router>
     </>
