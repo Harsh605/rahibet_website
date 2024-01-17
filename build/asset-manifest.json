@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.197cea4e.css",
-    "main.js": "/static/js/main.765682a7.js",
+    "main.css": "/static/css/main.9c1c1847.css",
+    "main.js": "/static/js/main.9e1a86cc.js",
     "static/js/787.6961ba7a.chunk.js": "/static/js/787.6961ba7a.chunk.js",
     "static/media/roullateai.jpg": "/static/media/roullateai.9bb047391c9e3be3a822.jpg",
     "static/media/colorpredtionai.jpg": "/static/media/colorpredtionai.0c5fc7f1dcf18feb0cc1.jpg",
@@ -29,12 +29,12 @@
     "static/media/images (2) (1).jpeg": "/static/media/images (2) (1).24d5fe9c287c896437c1.jpeg",
     "static/media/jackpoat3patti.jpeg": "/static/media/jackpoat3patti.643bfbae52db288f95ad.jpeg",
     "index.html": "/index.html",
-    "main.197cea4e.css.map": "/static/css/main.197cea4e.css.map",
-    "main.765682a7.js.map": "/static/js/main.765682a7.js.map",
+    "main.9c1c1847.css.map": "/static/css/main.9c1c1847.css.map",
+    "main.9e1a86cc.js.map": "/static/js/main.9e1a86cc.js.map",
     "787.6961ba7a.chunk.js.map": "/static/js/787.6961ba7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.197cea4e.css",
-    "static/js/main.765682a7.js"
+    "static/css/main.9c1c1847.css",
+    "static/js/main.9e1a86cc.js"
   ]
 }

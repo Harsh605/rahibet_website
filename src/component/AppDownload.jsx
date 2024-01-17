@@ -14,8 +14,8 @@ function AppDownload() {
 
   return (
     <div style={{textAlign:"center"}} className='fixed-bottom'>
-            <a style={{textDecoration:"none",height:"120px"}} href="https://admin.rahibet.com/letscard/rahibet_1.0.apk" className="lab-btn ">
-                <span className='ALL-GAMES-SPAN' style={{fontWeight:"600",fontSize:"30px",fontFamily:"ariel"}}><IoMdDownload/> DOWNLOAD APP</span>
+            <a  style={{textDecoration:"none"}} href="https://admin.rahibet.com/letscard/rahibet_1.0.apk" className="lab-btn ">
+                <span className='ALL-GAMES-SPAN' style={{fontWeight:"600",fontSize:"30px",fontFamily:"ariel",height:"70px",marginTop:"30px"}}><IoMdDownload/> DOWNLOAD APP</span>
                 </a>
         </div>
   );
