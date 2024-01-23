@@ -175,7 +175,7 @@ const Footer = () => {
                           // onClick={() => navigate("/About")}
                           className="lab-inner"
                         >
-                          <p style={{cursor:"pointer"}}>BLOG </p>
+                          <p>BLOG </p>
                         </div>
                       </div>
                       <div className="fm-item-widget lab-item">
